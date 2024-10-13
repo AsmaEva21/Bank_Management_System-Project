@@ -1,0 +1,99 @@
+
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background:linear-gradient(to top,rgba(160, 160, 160, 0.637),rgba(0, 0, 0, 0.651)),url(contact.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+.contact{
+    width: 100%;
+    display:flex;
+    
+    
+}
+.contactinfo{
+    color:aliceblue;
+    max-width: 400px;
+    line-height: 40px;
+    padding-left: 60px;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.contactinfo .i{
+    margin-right: 20px;
+    font-size: 25px;
+
+}
+.form{
+    width: 320px;
+    height: 400px;
+    background: linear-gradient(to top,rgba(180, 169, 169, 0.637),rgba(236, 228, 228, 0.651));
+    position: absolute;
+    top: 25%;
+    left: 500px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 250px;
+    font-family: 'Times new Roman';
+    text-align: center;
+    color:darkolivegreen;
+    font-size: 24px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin:2px;
+    padding:8px;
+    position: center;
+
+}
+.form input{
+    width: 255px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid rgb(20, 61, 29);
+    border-top:none ;
+    border-right: none;
+    border-left: none;
+    color: black;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+::placeholder{
+    color: black;
+    font-family: Arial;
+
+}
+
+.loginbtn{
+    width: 250px;
+    height: 30px;
+    background: white;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:blue;
+}
+.loginbtn:hover{
+    background: black;
+    color: white;
+}
+
+
+.loginbtn a{
+    text-decoration: none;
+    color: darkolivegreen;
+    font-weight: bold;
+}
